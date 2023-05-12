@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: itzconnor/ssr_agent:1.2
+          image: nginx:latest
           ports:
             - containerPort: 80
